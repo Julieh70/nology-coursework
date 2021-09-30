@@ -1,0 +1,48 @@
+* {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  .parent {
+    text-align: center;
+    background-color: white;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    margin: 200px;
+    position: relative;
+    margin-left: 400px;
+    width: 400px;
+    
+  }
+  
+  .child-one {
+    background-color: black;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    top: 60px;
+    width: 300px;
+    height: 45px;
+  }
+  
+  .child-two {
+    background-color: red;
+    font-size: 40px;
+    color: red;
+    position: absolute;
+    top: 105px;
+    width: 300px;
+    height: 45px;
+  }
+  
+  .child-three {
+    background-color: yellow;
+    font-size: 40px;
+    color: yellow;
+    position: absolute;
+    top: 150px;
+    width: 300px;
+    height: 45px;
+  }
