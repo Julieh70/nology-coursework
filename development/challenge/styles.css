@@ -1,19 +1,19 @@
 * {
     text-align: center;
     font-size: 40px;
-    margin: 0;
+    margin: 0px;
   }
   
   .parent {
-    text-align: center;
+    
     background-color: white;
     font-size: 40px;
     color: white;
-    padding: 20px;
-    margin: 200px;
+    
+    padding: 0px;
     position: relative;
-    margin-left: 400px;
-    width: 400px;
+    width: 300px;
+    left: 550px;
     
   }
   
@@ -23,8 +23,8 @@
     color: black;
     position: absolute;
     top: 60px;
-    width: 300px;
-    height: 45px;
+    width: 240px;
+    height: 50px;
   }
   
   .child-two {
@@ -32,9 +32,9 @@
     font-size: 40px;
     color: red;
     position: absolute;
-    top: 105px;
-    width: 300px;
-    height: 45px;
+    top: 110px;
+    width: 240px;
+    height: 50px;
   }
   
   .child-three {
@@ -42,7 +42,50 @@
     font-size: 40px;
     color: yellow;
     position: absolute;
-    top: 150px;
+    top: 160px;
+    width: 240px;
+    height: 50px;
+  }
+
+  .parent2 {
+
+    font-size: 40px;
+    color: white;
+    padding: 0px;
+    position: relative;
     width: 300px;
-    height: 45px;
+    top: 200px;
+    left: 550px;
+  }
+
+  .child-4 {
+    font-size: 40px;
+    color: red;
+    background-color: red;
+    position: absolute;
+    width: 80px;
+    height: 150px;
+    left: 160px;
+
+
+  }
+
+  .child-5 {
+    background-color: white;
+    position: absolute;
+    width: 80px;
+    height: 150px;
+    left: 80px;
+
+
+  }
+
+  .child-6 {
+      font-size: 40px;
+      color: blue;
+      background-color: blue;
+      position: absolute;
+      width: 80px;
+      height: 150px;
+      
   }
