@@ -5,7 +5,6 @@
   }
     
   .parent {
-    
     background-color: white;
     font-size: 40px;
     color: white;
@@ -18,23 +17,24 @@
 
   .parent:hover .child-one {
     background-color: red;
-    font: red;
-
+    font:40px;
+    color:  red;
    }
-   .parent:hover .child-two {
 
+   .parent:hover .child-two {
     background-color: white;
-    font: white;
+    font: 40px;
+    color:  white;
    }
 
    .parent:hover .child-three {
      background-color: green;
-     font: green;
+     font:40px;
+     color: green;
    }
 
   .child-one {
     background-color: black;
-    transition: background-color .5s;
     font-size: 40px;
     color: black;
     position: absolute;
