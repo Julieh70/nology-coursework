@@ -18,11 +18,13 @@
 
   .parent:hover .child-one {
     background-color: red;
+    font: red;
 
    }
    .parent:hover .child-two {
 
     background-color: white;
+    font: white;
    }
 
    .parent:hover .child-three {
