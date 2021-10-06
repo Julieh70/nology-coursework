@@ -16,7 +16,20 @@
     left: 550px;
       }
 
-  
+  .parent:hover .child-one {
+    background-color: red;
+
+   }
+   .parent:hover .child-two {
+
+    background-color: white;
+   }
+
+   .parent:hover .child-three {
+     background-color: green;
+     font: green;
+   }
+
   .child-one {
     background-color: black;
     transition: background-color .5s;
@@ -28,10 +41,7 @@
     height: 50px;
    }
   
-  .child-one:hover {
-    background-color: red;
-    color: red; /* Hovered links */} 
-
+  
   .child-two {
     background-color: red;
     font-size: 40px;
@@ -42,10 +52,7 @@
     height: 50px;
   }
   
-  .child-two:hover {
-    background-color: white ;
-    color: white; /* Hovered links */}
-
+  
   .child-three {
     background-color: yellow;
     font-size: 40px;
@@ -56,11 +63,7 @@
     height: 50px;
   }
 
-  .child-three:hover {
-    background-color: green; 
-    color: green; /* Hovered links */;
-  }
-
+  
   .parent2 {
 
     font-size: 40px;
