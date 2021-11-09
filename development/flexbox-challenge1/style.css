@@ -1,11 +1,12 @@
 * { 
     margin: 10px;
   }
-  .parent {
+  .flex-container {
     background-color: whitesmoke;
     position: relative;
     padding: 20px;
     margin:20px;
+    display: flex;
      }
   .panel0 {
     position: absolute;
@@ -20,23 +21,33 @@
       background-color: black;
       font-size: 30px;
       color: whitesmoke;
+      height: 40px;
   }
   .link1 {
 
     background-color: black;
     font-size: 30px;
     color: whitesmoke;
+    height: 40px;
   }
   .link2 {
     background-color: black;
     font-size: 30px;
     color: whitesmoke;
+    height: 40px;
   }
   .link3 {
   background-color: black;
   font-size: 30px;
   color: whitesmoke;
+  height:fit-content;
   }
+.flex-container1 {
+  display: flex;
+
+}
+
+
  .panel1 {
    border-style: solid;
  }
@@ -45,13 +56,18 @@
   border-color: black;
   font-size: 20px;
   color: black; }
-
   .panel3 {
-    border-style: solid;
     border-color: black;
+    border:black;
+    border-style: solid;
   }
-
+  .flex-container2 {
+    display: flex;
+    flex-direction: column;
+  }
   .panel4 {
+    display: flex;
+
     border-style: solid;
     border-color: black;
   }
