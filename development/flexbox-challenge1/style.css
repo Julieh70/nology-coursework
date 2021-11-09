@@ -1,0 +1,57 @@
+* { 
+    margin: 10px;
+  }
+  .parent {
+    background-color: whitesmoke;
+    position: relative;
+    padding: 20px;
+    margin:20px;
+     }
+  .panel0 {
+    position: absolute;
+    top: 0px;
+    font-size: 30px;
+    color: whitesmoke;
+    font-style:normal;
+    background-color: green;
+    width: 130px;
+  }
+  .link0 {
+      background-color: black;
+      font-size: 30px;
+      color: whitesmoke;
+  }
+  .link1 {
+
+    background-color: black;
+    font-size: 30px;
+    color: whitesmoke;
+  }
+  .link2 {
+    background-color: black;
+    font-size: 30px;
+    color: whitesmoke;
+  }
+  .link3 {
+  background-color: black;
+  font-size: 30px;
+  color: whitesmoke;
+  }
+ .panel1 {
+   border-style: solid;
+ }
+  .panel2 {
+  border-style: solid;
+  border-color: black;
+  font-size: 20px;
+  color: black; }
+
+  .panel3 {
+    border-style: solid;
+    border-color: black;
+  }
+
+  .panel4 {
+    border-style: solid;
+    border-color: black;
+  }
