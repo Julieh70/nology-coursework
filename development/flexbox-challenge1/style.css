@@ -44,6 +44,7 @@
   }
 .flex-container1 {
   display: flex;
+  justify-content: end;
 
 }
 
