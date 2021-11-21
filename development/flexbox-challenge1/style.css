@@ -1,40 +1,48 @@
 * { 
-    margin: 10px;
+    margin: 0px;
   }
   .flex-container {
-    background-color: whitesmoke;
+    background-color: black;
     position: relative;
-    padding: 20px;
+    width: 990px;
+    height: 30px;
     margin:20px;
+    padding: 10px;
     display: flex;
+    justify-content: space-around;
      }
+
   .panel0 {
     position: absolute;
     top: 0px;
+    left: 0px;
     font-size: 30px;
     color: whitesmoke;
     font-style:normal;
     background-color: green;
     width: 130px;
+    height: 30px;
+    padding: 10px;
   }
+
   .link0 {
       background-color: black;
       font-size: 30px;
-      color: whitesmoke;
-      height: 40px;
+      color: black;
+      height: fit-content
   }
   .link1 {
 
     background-color: black;
     font-size: 30px;
     color: whitesmoke;
-    height: 40px;
+    height: fit-content;
   }
   .link2 {
     background-color: black;
     font-size: 30px;
     color: whitesmoke;
-    height: 40px;
+    height: fit-content;
   }
   .link3 {
   background-color: black;
@@ -44,31 +52,66 @@
   }
 .flex-container1 {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  width: 600px;
+  position: absolute;
+  top:0px;
+  right: 0px;
+  background-color: black;
+  height: 30px;
+  padding: 10px;
+  font-size: 30px;
 
 }
 
 
  .panel1 {
    border-style: solid;
+   border-color: black;
+   width: 600px;
+   margin: 10px;
  }
   .panel2 {
   border-style: solid;
   border-color: black;
-  font-size: 20px;
-  color: black; }
+  width: 600px;
+  margin: 10px;
+   }
+
   .panel3 {
     border-color: black;
-    border:black;
     border-style: solid;
+    width: 600px;
+    margin: 10px;
   }
   .flex-container2 {
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 600px; 
+    padding: 20px;
   }
+
   .panel4 {
     display: flex;
-
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 400px;
     border-style: solid;
     border-color: black;
+  }
+
+  .flex-container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: justify;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    padding: 20px; 
+    width: 280px;
+    height: 300px;
   }
