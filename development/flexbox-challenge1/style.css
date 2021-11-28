@@ -33,67 +33,64 @@
       height: 30px;
       padding: 10px;
       }
-  .flex-container1 {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    width: 800px;
-    position: relative;
-    top: -10px;
-    left: 70px;
-    background-color: black;
-    height: 30px;
-    padding: 10px;
-    font-size: 25px;
-    font-weight: bold;
-      }
   
-    .flex-container1:hover .link0:hover {
+    .flex-container:hover {
       background-color: grey;
-      font: size 25px;
-      color: lightblue;
     }
-    .link0 {
-      width: 96.63px;
-      background-color: black;
-      position: absolute;
-
-      display: flex;
-      flex-direction: row;
-    }
-    
   
 
     .link1 {
     position: absolute;
-    right: 340px;
+    right: 370px;
     display: flex;
     background-color: black;
     font-size: 20px;
+    font-weight: bold;
     color: whitesmoke;
     height: fit-content;
     }
         
+    .flex-container:hover .link1 {
+      background-color: grey;
+      font-size: 20px;
+      color: yellowgreen;
+    }
+
     .link2 {
       position: absolute;
-      right: 180px;
+      right: 210px;
       display: flex;
       flex-direction: row;
     background-color: black;
     font-size: 20px;
+    font-weight: bold;
     color: whitesmoke;
     height: fit-content;
     }
+
+    .flex-container:hover .link2 {
+      background-color: grey;
+      font-size: 20px;
+      color: yellowgreen;
+    }
     .link3 {
       position: absolute;
-      right: 20px;
+      right: 50px;
       display: flex;
       flex-direction: row;
     background-color: black;
     font-size: 20px;
+    font-weight: bold;
     color: whitesmoke;
     height:fit-content;
     }
+
+    .flex-container:hover .link3 {
+      background-color: grey;
+      font-size: 20px;
+      color: yellowgreen;
+    }
+
   .flex-container2 {
       display: flex;
       flex-direction: column;
@@ -108,7 +105,7 @@
     .panel1 {
      border-style: solid;
     border-color: black;
-    width: 620px;
+    width: 630px;
     margin: 10px;
     padding: 10px;
    
@@ -116,7 +113,7 @@
     .panel2 {
     border-style: solid;
     border-color: black;
-    width: 620px;
+    width: 630px;
     margin: 10px;
     padding: 10px;
    }
@@ -124,7 +121,7 @@
     .panel3 {
     border-color: black;
     border-style: solid;
-    width: 620px;
+    width: 630px;
     margin: 10px;
     padding: 10px;
     
@@ -147,7 +144,7 @@
     justify-content: flex-start;
     position: absolute;
     top: 80px;
-    right: 0;
+    right: 60px;
     padding: 10px; 
     width: 275px;
     height: 460px;
