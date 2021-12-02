@@ -1,162 +1,75 @@
-* { 
+  * { 
     margin: 0;
     padding: 0;
-    font-family: tahoma, verdana, sans-serif;
+    font-family: sans-serif;
   }
-
-  body{
-    max-width: 1400;
+  /* nav bar stylings */
+  nav,
+  nav * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  font-size: 1.25em;
+  background-color: black;
+  color: white;
+}
+#logo {
+  width: 15%;
+  height: 100%;
+  background-color: green;
+}
+#nav-links {
+  width: 50%;
+  height: 100%;
+  justify-content: flex-end;
+}
+a {
+  width: 33%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  background-color: white;
+  color: black;
+}
+main {
+    width: 95%;
+    height: 500px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
   }
-
-  .flex-container {
-    background-color: black;
-    position: relative;
-    width: 990px;
-    height: 30px;
-    margin:20px;
-    padding: 10px;
+  #left-panel {
+    width: 67.5%;
     display: flex;
-    justify-content: space-around;
-     }
-
-    .panel0 {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      font-size: 20px;
-      font-weight: bold;
-      color: whitesmoke;
-      font-style:normal;
-      text-align: center;
-      background-color: green;
-      width: 150px;
-      height: 30px;
-      padding: 10px;
-      }
-  
-    .flex-container:hover {
-      background-color: grey;
-    }
-  
-
-    .link1 {
-    position: absolute;
-    right: 370px;
-    display: flex;
-    background-color: black;
-    font-size: 20px;
-    font-weight: bold;
-    color: whitesmoke;
-    height: fit-content;
-    }
-        
-    .flex-container:hover .link1 {
-      background-color: grey;
-      font-size: 20px;
-      color: yellowgreen;
-    }
-
-    .link2 {
-      position: absolute;
-      right: 210px;
-      background-color: black;
-      font-size: 20px;
-      font-weight: bold;
-      color: whitesmoke;
-      height: fit-content;
-    }
-
-    .flex-container:hover .link2 {
-      background-color: grey;
-      font-size: 20px;
-      color: yellowgreen;
-    }
-    .link3 {
-      position: absolute;
-      right: 50px;
-      background-color: black;
-      font-size: 20px;
-      font-weight: bold;
-      color: whitesmoke;
-      height:fit-content;
-    }
-
-    .flex-container:hover .link3 {
-      background-color: grey;
-      font-size: 20px;
-      color: yellowgreen;
-    }
-
-  .flex-container2 {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 50px;
-      left: 0;
-      width: 600px; 
-      height: 500px;
-      padding: 20px;
-    }
-  
-    .panel1 {
-    border-style: solid;
-    border-color: black;
-    width: 630px;
-    margin: 10px;
-    padding: 10px;
-   
- }
-    .panel2 {
-    border-style: solid;
-    border-color: black;
-    width: 630px;
-    margin: 10px;
-    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+    .card {
+    border: solid black 2px;
+    height: 25%;
+    padding: 15px;
+  }
+  ul {
+    margin-left: 50px;
+  }
+  li {
+    margin: 15px 0;
+  }
+  #right-panel {
+    width: 27.5%;
+    padding: 15px;
+    border: solid black 2px;
    }
-
-    .panel3 {
-    border-color: black;
-    border-style: solid;
-    width: 630px;
-    margin: 10px;
-    padding: 10px;
-    
+    #right-panel > h3 {
+    margin-bottom: 10px;
   }
-    h3 {
-    padding: 0px;
-  }
-    ul {
-      margin-left: 50px;
-      height: 100px;
-
-    }
-    li {
-    padding: 8px; 
-  }
-
-  .flex-container3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    position: absolute;
-    top: 80px;
-    left: 720px;
-    padding: 10px; 
-    width: 275px;
-    height: 460px;
-    border: black;
-    border-style: solid;
-  }
-  
-  .content {
-    display: flex;
-    position: absolute;
-    right: 0;
-    flex-direction: row;
-    justify-content: flex-start;
+    p {
     text-align: justify;
-    top: 30px;
-    margin: 10px;
   }
-
-  
