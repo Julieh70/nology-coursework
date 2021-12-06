@@ -51,18 +51,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-    .card {
-    border: solid black 2px;
-    height: 25%;
-    padding: 15px;
-  }
-  ul {
-    margin-left: 50px;
-  }
-  li {
-    margin: 15px 0;
-  }
+  }   
   #right-panel {
     width: 27.5%;
     padding: 15px;
