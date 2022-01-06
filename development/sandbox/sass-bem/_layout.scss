@@ -1,6 +1,15 @@
+
 .header {
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
+  height:  70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 50vh;
+  background-color: $color-primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
