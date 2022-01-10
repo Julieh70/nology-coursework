@@ -21,6 +21,19 @@
     padding: 10px, 20px;
     border-radius: 10px;
     color: $color-white;
+    border: none;
+
+    &--form {
+        width: 100%;
+        background-color: $color-primary-light;
+    }
+
+   &--end {
+       background-color: unset;
+       border: 2px solid $color-primary;
+       color: $color-primary;
+ 
+   }
 }
 
 .intro {
@@ -48,4 +61,40 @@
     background-color: $color-white;
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    &__input {
+        margin-bottom: 20px;
+    }
+
 }
+
+
+
+.end {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+    &__sub-heading {
+        font-family: $font-display;
+        font-size: 3opx;
+        margin-bottom: 20px;
+    }
+}
+    
+ .footer {
+    background-color: $color-primary;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    &__text {
+        color: $color-white;
+        vertical-align: bottom;
+    }
+ }
+    
+
+
+     
