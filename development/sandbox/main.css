@@ -63,7 +63,6 @@ a:link,
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
 .wave {
   vertical-align: top;
 }
@@ -118,29 +117,7 @@ a:link,
 
 .bottom-container {
   height: 50vh;
-=======
-.form {
-  text-align: center;
-  justify-content: space-between;
-}
-.form__input {
-  font-family: "Roboto", sans-serif;
-  font-size: 25px;
-}
-
-.header {
-  height: 90vh;
->>>>>>> b4c0d4381b1874cca0f8a70e79e326b38c48943b
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.form {
-  height: 90vh;
-  border: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center space-around;
   align-items: center;
 }

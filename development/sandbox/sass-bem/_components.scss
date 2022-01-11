@@ -1,3 +1,6 @@
+@import "./base";
+@import "./layout";
+
 .navigation {
     height:10vh;
     background-color: $color-primary;
@@ -67,6 +70,7 @@
     &__input {
         margin-bottom: 20px;
     }
+<<<<<<< HEAD
 
 }
 
@@ -98,3 +102,20 @@
 
 
      
+=======
+}
+
+.form {
+    border: 1px solid $color-black;
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    text-align: center;
+    
+    &__input {
+        font-family: $font-body;
+        font-size: 25px;
+        
+    }
+}
+>>>>>>> b4c0d4381b1874cca0f8a70e79e326b38c48943b
