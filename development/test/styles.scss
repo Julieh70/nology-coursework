@@ -1,0 +1,61 @@
+* {
+    font-size: 40px;
+    color: white;
+    margin: 0%;
+}
+
+.projects_section_parent {
+    background-color: grey;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    margin: 20px;
+    margin: 50px;
+    position: relative;
+   
+
+
+    .pic-title {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 10px;
+    }
+
+    .child-one {
+         background-color: bisque;
+        height: 349px;
+        width: 340px;
+        margin: 20px;
+        position: relative;
+        top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .child-two {
+        background-color: lightgrey;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 150px;
+        left: 65px;
+    }
+
+    .pic2 {
+        transform: rotate(9 deg);
+        left: 100px;
+    }
+
+    .project-buttons-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        padding-top: 40px;
+    }
+
+    .project-buttons {
+        font-size: medium;
+        color: black;
+    }
+}
